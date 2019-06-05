@@ -1,1 +1,6 @@
-# CNN_Course
+# CNN Course
+
+### Introduction
+Convolutional neural networks are used on data that has a grid structure, so that similarities in the local neighbourhood can be exploited. The type of data that fulfills this requirement most prominently is perhaps image data - but audio (temporal component gives neighbourhood) or video data (have both spatial and temporal component) are also candidates for CNNs. Furthermore, any kind other type of data that has a feature dimension with a coherent neighbourhood will work as well (e.g. SMILES data describing molecules can be represented in such a way as to allow 1D-CNN).
+
+What all these data types have in common, is that they are easy to visualize. This in turn has the advantage that we can look at the predictions of our CNN not just after each forward pass through the network, but also in-between layers. This tutorial aims to teach how to use this fact to your advantage when designing CNNs for your own learning problem, by looking at examples of 1D, 2D and 3D data.
